@@ -1,0 +1,202 @@
+/*BASE*/
+.TXT_CENTER{text-align:center!important;}
+.TXT_LEFT{text-align:left!important;}
+.TXT_RIGHT{text-align:right!important;}
+.TXT_JUSTIFY{text-align:justify!important;}
+/*COLORES*/
+.BLANCO{color:#fff!important;}
+.NEGRO{color:#000!important;}
+.ROJO{color:#f00!important;}
+
+
+.BG_BLANCO{background-color:#fff!important;}
+.BG_NEGRO{background-color:#000!important;}
+
+.BG_GRAD_BLANCO{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+98 */
+background: rgb(255,255,255); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk4JSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-8 */
+}
+.BG_BLANCO_OPAC{
+    background:rgba(255,255,255,0.67);
+}
+.BG_NEGRO_OPAC{
+    background:rgba(0,0,0,0.75);
+}
+
+
+/*POSICIONES*/
+.ABSOLUTE{position:absolute!important;}
+.RELATIVE{position:relative!important;}
+.STATIC{position:static!important;}
+.FIXED{position:fixed!important;}
+
+.RIGHT{right:0;}
+.LEFT{left:0;}
+.BOTTOM{bottom:0;}
+.TOP{top:0;}
+
+/*FLOTANTES*/
+.F_LEFT{float:left;}
+.F_RIGHT{float:right;}
+
+/*CASES*/
+.TXT_UPPER{text-transform:uppercase!important;}
+.TXT_LOWER{text-transform:lowercase!important;}
+.TXT_CAPITALIZE{text-transform:capitalize!important;}
+
+
+/*BLOQUES*/
+.BLOCK{display:block!important;}
+.INLINE{display:inline!important;}
+.INLINE-BLOCK{display:inline-block!important;}
+/*COMPORTAMIENTO TIPO TABLA*/
+.tableBox {height: 100%;width: 100%;display: table!important;}
+.tableBox._50{height: 60%;}
+    .tableBox .tableCell {display: table-cell;position: relative;}
+    .tableBox .tableCell.middle{vertical-align: middle;}
+    .tableBox .tableCell.bottom{vertical-align: bottom;}
+    .tableBox .tableCell.top{vertical-align: top;}
+
+.contenedorInfo {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    overflow: hidden;
+    padding: 3%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*RATIOS*/
+.ratioHeight {
+    width: 100%;
+    position: relative;
+}
+
+/*Ratios Utilizados*/
+.ratioHeight._170 {padding-bottom: 170%;}
+.ratioHeight._160_7 {padding-bottom: 160.7%;}
+.ratioHeight._150 {padding-bottom: 150%;}
+.ratioHeight._130 {padding-bottom: 130%;}
+.ratioHeight._118_8 {padding-bottom: 118.8%;}
+.ratioHeight._117 {padding-bottom: 117%;}
+.ratioHeight._114 {padding-bottom: 114%;}
+.ratioHeight._113_7 {padding-bottom: 113.7%;}
+.ratioHeight._111_7 {padding-bottom: 111.7%;}
+.ratioHeight._104_5 {padding-bottom: 104.5%;}
+.ratioHeight._104 {padding-bottom: 104%;}
+.ratioHeight._110_6 {padding-bottom: 110.6%;}
+.ratioHeight._110 {padding-bottom: 110%;}
+.ratioHeight._100 {padding-bottom: 100%;}
+.ratioHeight._90 {padding-bottom: 90%;}
+.ratioHeight._89 {padding-bottom: 89%;}
+.ratioHeight._88_5 {padding-bottom: 88.5%;}
+.ratioHeight._88_4 {padding-bottom: 88.4%;}
+.ratioHeight._80 {padding-bottom: 80%;}
+.ratioHeight._73 {padding-bottom: 73%;}
+.ratioHeight._70 {padding-bottom: 70%;}
+.ratioHeight._60 {padding-bottom: 60%;}
+.ratioHeight._53 {padding-bottom: 53%;}
+.ratioHeight._51_9 {padding-bottom: 51.9%;}
+.ratioHeight._50 {padding-bottom: 50%;}
+.ratioHeight._39 {padding-bottom: 39%;}
+.ratioHeight._38_2 {padding-bottom: 38.2%;}
+.ratioHeight._38 {padding-bottom: 38%;}
+.ratioHeight._35 {padding-bottom: 35%;}
+.ratioHeight._30 {padding-bottom: 30%;}
+.ratioHeight._25_5 {padding-bottom: 25.5%;/* padding-bottom: 19.5%; */}
+.ratioHeight._25 {padding-bottom: 25%;}
+.ratioHeight._20 {padding-bottom: 20%;}
+.ratioHeight._10 {padding-bottom: 10%;}
+.ratioHeight._00 {padding-bottom: 00%;}
+
+.contRatio {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contRatio:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+/*COMPORTAMIENTO ELIPSIS*/
+.elipsis{
+    display: 
+    -webkit-box!important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+}
+.elipsis._2{-webkit-line-clamp: 2!important;}
+.elipsis._3{-webkit-line-clamp: 3!important;}
+.elipsis._4{-webkit-line-clamp: 4!important;}
+
+/*BASE*/
+
+.demo-layout-transparent {
+  background: url('../img/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.contenedorFull {
+    position: relative;
+}
+
+.contenidoCentrado {
+    position: relative;
+    width: calc(100% - 40px);
+    /* max-width: 1024px; */
+    margin: 0 auto;
+}
+
+.contenidoCentrado.headerLayout {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    width: 100%;
+    position: relative;
+    height: 300px;
+}
+
+.demo-list-three {
+  width: 650px;
+  margin: 0 auto;
+}
+
+pre.javascriptCode {
+    margin: 0 auto;
+}
+
+pre.javascriptCode code {
+    margin: 0 auto;
+    display: block;
+    max-width: 800px;
+}
+
+.notasImplementacion {
+}
+
+pre.javascriptCode code.html {
+    margin: 0;
+    line-height: 5px;
+}
