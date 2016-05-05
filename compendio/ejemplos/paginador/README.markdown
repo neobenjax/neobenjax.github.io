@@ -69,3 +69,68 @@ Para la parte de HTML el markup utilizado puede ser como:
   </ul>
 ```
 Donde cada <b>LI (hijo de UL#listadoPaginado)</b> será lo que se pagine siempre que tengan las mismas clases
+
+Adicionalmente los estilso por DEFAULT serían:
+```css
+.paginador {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: inline-block;
+    font-size:16px;
+    color: #fff;
+}
+.paginador a.jp-current,
+a.jp-current:hover {
+    background: #848484;
+    color:#fff;
+    font-weight: bold;
+}
+
+.paginador a {
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #000;
+    padding: 3px 8px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.paginador a:hover {
+    background-color: #000;
+    color: #FFF;
+    opacity: 0.5;
+}
+
+.paginador a.jp-previous { margin-right: 15px;border: 1px solid #fff;padding: 6px 29px;}
+.paginador a.jp-next { margin-left: 15px;border: 1px solid #fff;padding: 3px 8px;}
+
+.paginador a.jp-current,
+a.jp-current:hover {
+    color: #fff;
+    background: #000!important;
+}
+
+.paginador a.jp-disabled,
+a.jp-disabled:hover {
+    color: rgba(255, 255, 255, 0.74);
+    display: none;
+}
+
+.paginador a.jp-current,
+a.jp-current:hover,
+.paginador a.jp-disabled,
+a.jp-disabled:hover {
+    cursor: default;
+    background: none;
+}
+
+.paginador span { margin: 0 5px; }
+
+a.jp-first,a.jp-last {
+    display: none;
+}
+```
