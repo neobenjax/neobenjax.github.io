@@ -200,3 +200,10 @@ pre.javascriptCode code.html {
     margin: 0;
     line-height: 5px;
 }
+
+/*FANCYBOX EJEMPLO ESTILOS GENERALES*/
+.contenedorEjemplo {
+    width: 100%;
+    max-width: 610px;
+    margin: 0 auto;
+}
