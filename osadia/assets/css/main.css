@@ -727,7 +727,7 @@ ul.menu-principal > li > a:hover {
 
 img.logo-quienes {
     width: 90%;
-    max-width: 673px;
+    max-width: 600px;
     margin: 20px 0;
 }
 
@@ -773,7 +773,7 @@ div#experiencia {
 
 img.logo-experiencia {
     width: 90%;
-    max-width: 996px;
+    max-width: 896px;
     margin-top: 20px;
 }
 
@@ -895,7 +895,7 @@ div#servicios {
 
 img.logo-servicios {
     width: 90%;
-    max-width: 884px;
+    max-width: 784px;
     margin-top: 60px;
     margin-bottom: 120px;
 }
@@ -977,7 +977,7 @@ div#servicio-intro {
 }
 
 h2.subtitulo-servicios.adorno-lateral {
-    font-size: 76px;
+    font-size: 61px;
     color: #ef3485;
     text-transform: uppercase;
     font-family: 'steelfish_rgregular';
@@ -1024,7 +1024,7 @@ p.minidisclaimer {
 }
 
 img.logo-contacto {
-    max-width: 760px;
+    max-width: 660px;
     width: 90%;
     margin-bottom: 50px;
 }
