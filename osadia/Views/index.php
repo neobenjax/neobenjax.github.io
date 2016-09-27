@@ -242,7 +242,7 @@
 
 		<img src="<?php echo $baseURL; ?>assets/img/logo-contacto.png" alt="Contacto" class="logo-contacto">
 
-		<form action="contactar" id="formContacto" class="contacto-style">
+		<form action="" id="formContacto" class="contacto-style">
 			
 			<p class="texto-contacto">
 				¿QUIÉRES SABER MÁS DE NOSOTROS?
