@@ -125,7 +125,7 @@
 			<p class="descripcion-servicio txt-center">
 				Para que una marca alcance sus objetivos es necesario una estrategia consistente y una identidad reconocible en toda su comunicación.
 				<br>
-				Creemos en el valor de las ideas y en la busqueda de los mejores conceptos creativos, ambos son parte fundamental de nuestras propuestas.
+				Creemos en el valor de las ideas y en la búsqueda de los mejores conceptos creativos, ambos son parte fundamental de nuestras propuestas.
 			</p>
 
 			<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
@@ -145,7 +145,7 @@
 			</h2>
 
 			<p class="descripcion-servicio txt-center">
-				Creamos estrategias diferenciadas por canal, por retail y tipo de shopper.
+				Creamos estrategias diferenciadas por canal, por retail y tipo de shopper, que nos ayuden a:
 				<br>
 				A) Entender las necesidades y motivaciones del shopper al momento de comprar.
 				<br>
@@ -176,7 +176,7 @@
 			<p class="descripcion-servicio txt-center">
 				Las promociones son ideales para lograr un incremento en las ventas en un corto plazo. 
 				<br>
-				Cuanto más memorables y originales sean, nos ayudan a la construcción de una marca sólida.
+				Cuanto más memorables y originales sean, <strong>más nos ayudarán</strong> a la construcción de una marca sólida.
 			</p>
 
 			<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
@@ -269,7 +269,13 @@
 					<label for="mensaje" class="lbl-form">mensaje</label>
 					<textarea name="mensaje" class="input-dark text-area"></textarea>
 				</li>
+				<li>
+					<div class="submit-form">
+						<button class="submit">Enviar</button>
+					</div>
+				</li>
 			</ul>
+
 		</form>
 
 		<div class="adorno-rodea-contacto">
@@ -287,3 +293,45 @@
 
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$gotoDiv = $('.goto');
+
+		$('.goto').click(function(event){
+			event.preventDefault();
+
+			if($(this).attr('href').indexOf('#') > -1 && $(this).attr('href').length > 1)
+			{
+				el = $(this).attr('href');
+				$('html, body').animate({
+                    scrollTop: $(el).offset().top-160
+                }, 200);
+			}
+
+		});
+
+		$('.servicio').click(function(event){
+			event.preventDefault();
+
+			if($(this).attr('href').indexOf('#') > -1 && $(this).attr('href').length > 1)
+			{
+				el = $(this).attr('href');
+				$('html, body').animate({
+                    scrollTop: $(el).offset().top-580
+                }, 200);
+			}
+
+		});
+
+        $(window).scroll(function(){
+			var header = $('header');
+            
+            if($(window).scrollTop() < header.height()+100){
+                header.removeClass('headerFixed');
+            } else {
+                header.addClass('headerFixed');
+            }
+                
+        });
+	});
+</script>

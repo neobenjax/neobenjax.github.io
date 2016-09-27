@@ -678,11 +678,16 @@ body {
 a.logo {
     display: inline-block;
     vertical-align: middle;
+    width: 70px;
+}
+
+a.logo img {
+    width: 100%;
 }
 
 header.header {
     border-bottom: 1px solid #fff;
-    padding: 16px 0;
+    padding: 10px 0;
 }
 
 ul.menu-principal {
@@ -711,6 +716,11 @@ ul.menu-principal > li > a {
     transition: all 0.5s;
 }
 
+header.header.headerFixed ul.menu-principal > li > a {
+    padding: 15px;
+    font-size: 14px;
+}
+
 ul.menu-principal > li > a:hover {
     color: #81da00;
 }
@@ -729,7 +739,7 @@ img.logo-quienes {
 }
 
 .contenido-somos > p {
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'ITCAvantGardeStd-BkCn';
 }
 
@@ -753,6 +763,7 @@ div#somos {
 
 .fondo-experiencia {
     background: url(../img/fondo_experiencia.png) no-repeat top center;
+    background-size: contain;
 }
 
 div#experiencia {
@@ -831,7 +842,7 @@ ul.marcas-experiencia > li > span.marca.rexona {
 
 ul.marcas-experiencia > li > span.marca.impulse {
     background-position: -255px -104px;
-    width: 127px;
+    width: 134px;
 }
 
 ul.marcas-experiencia > li > span.marca.cocacola {
@@ -849,9 +860,9 @@ ul.marcas-experiencia > li > span.marca.delvalle {
 }
 
 p.frase-idea {
-    font-size: 66px;
+    font-size: 51px;
     font-family: 'steelfish_rgregular';
-    line-height: 70px;
+    line-height: 60px;
     margin-bottom: 60px;
 }
 
@@ -864,7 +875,7 @@ span.br {
 }
 
 div#fraseIdea {
-    padding: 250px 0px 250px;
+    padding: 250px 0px 140px;
 }
 
 .adorno-rodea {
@@ -877,8 +888,9 @@ div.fondo-servicios {
 }
 
 div#servicios {
-    padding-top: 72px;
+    padding-top: 0px;
     margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 img.logo-servicios {
@@ -961,7 +973,7 @@ ul.links-servicios > li > a.servicio.packaging:before {
 
 div#servicio-intro {
     margin-bottom: 90px;
-    background: none;
+    /* background: none; */
 }
 
 h2.subtitulo-servicios.adorno-lateral {
@@ -1024,7 +1036,7 @@ form.contacto-style {
     max-width: 746px;
     width: 90%;
     font-family: 'steelfish_rgregular';
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     padding: 30px;
     position: relative;
@@ -1039,6 +1051,10 @@ ul.campos-formulario > li {
     margin-bottom: 10px;
 }
 
+ul.campos-formulario > li:last-child {
+    margin-bottom: 0;
+}
+
 label.lbl-form {
     display: inline-block;
     vertical-align: top;
@@ -1051,7 +1067,7 @@ label.lbl-form {
     border-radius: 0;
     color: #fff;
     font-family: 'steelfish_rgregular';
-    font-size: 30px;
+    font-size: 25px;
     background: #000;
     border: none;
     width: calc(100% - 130px);
@@ -1090,6 +1106,8 @@ div.contenido-seccion:not(#servicio-intro) {
 div#servicio-creatividad {
     position: relative;
     margin-top: 470px;
+    /* margin-top: 0; */
+    /* top: 150px; */
 }
 
 div#servicio-creatividad:before {
@@ -1101,6 +1119,9 @@ div#servicio-creatividad:before {
     height: 468px;
     top: -370px;
     margin-bottom: -450px;
+    /* margin-bottom: 0; */
+    /* top: 0; */
+    /* margin-top: -420px; */
 }
 
 div#servicio-shopper {
@@ -1185,4 +1206,23 @@ div#servicio-packaging:before{
 
 div#contacto {
     margin-bottom: 50px;
+}
+
+header.header.headerFixed {
+    position: fixed;
+    width: 100%;
+}
+
+header.header.headerFixed a.logo {
+    width: 50px;
+}
+
+button.submit {
+    border: none;
+    background: url(../img/btn-enviar-contacto.png) no-repeat center center;
+    width: 158px;
+    background-size: contain;
+    height: 70px;
+    overflow: hidden;
+    text-indent: -999999px;
 }
