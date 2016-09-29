@@ -678,7 +678,7 @@ body {
 a.logo {
     display: inline-block;
     vertical-align: middle;
-    width: 70px;
+    width: 50px;
 }
 
 a.logo img {
@@ -714,9 +714,6 @@ ul.menu-principal > li > a {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
-}
-
-header.header.headerFixed ul.menu-principal > li > a {
     padding: 15px;
     font-size: 14px;
 }
@@ -734,7 +731,7 @@ img.logo-quienes {
 .contenido-somos {
     background: url(../img/fondo_recuado_quienes.png) no-repeat center center;
     height: 332px;
-    margin-top: -60px;
+    margin-top: -20px;
     padding: 60px 120px;
 }
 
@@ -876,6 +873,7 @@ span.br {
 
 div#fraseIdea {
     padding: 250px 0px 140px;
+    margin-bottom: 90px;
 }
 
 .adorno-rodea {
@@ -890,14 +888,14 @@ div.fondo-servicios {
 div#servicios {
     padding-top: 0px;
     margin-bottom: 80px;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 img.logo-servicios {
     width: 90%;
     max-width: 784px;
-    margin-top: 60px;
-    margin-bottom: 120px;
+    margin-top: 10px;
+    margin-bottom: 70px;
 }
 
 p.intro-servicios {
@@ -910,7 +908,7 @@ p.intro-servicios {
 ul.links-servicios {
     padding: 20px;
     display: block;
-    max-width: 900px;
+    max-width: 750px;
     margin: 0 auto 30PX;
 }
 
@@ -930,22 +928,23 @@ ul.links-servicios > li > a {
     text-decoration: none;
     color: #fff;
     font-family: 'steelfish_rgregular';
-    font-size:23px;
+    font-size: 20px;
     display: block;
-    width: 135px;
+    width: 125px;
     margin: 0 auto;
 }
 
 ul.links-servicios > li > a:before {
     display: block;
-    width: 125px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     content: '';
     margin: 0 auto 20px;
     background-image: url(../img/botones_servicios.png);
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
+    background-size: 700px;
 }
 ul.links-servicios > li > a:hover:before{
     opacity:0.72;
@@ -956,19 +955,19 @@ ul.links-servicios > li > a.servicio.creatividad:before {
 }
 
 ul.links-servicios > li > a.servicio.shopper:before {
-    background-position: -191px 0px;
+    background-position: -143px 0px;
 }
 
 ul.links-servicios > li > a.servicio.promociones:before {
-    background-position: -383px 0px;
+    background-position: -291px 0px;
 }
 
 ul.links-servicios > li > a.servicio.digital:before {
-    background-position: -575px 0px;
+    background-position: -437px 0px;
 }
 
 ul.links-servicios > li > a.servicio.packaging:before {
-    background-position: -765px 0px;
+    background-position: -583px 0px;
 }
 
 div#servicio-intro {
@@ -985,7 +984,7 @@ h2.subtitulo-servicios.adorno-lateral {
     display: inline-block;
     position: relative;
     line-height: 76px;
-    margin: 70px 0;
+    margin: 55px 0 40px;
 }
 h2.subtitulo-servicios.adorno-lateral:before,
 h2.subtitulo-servicios.adorno-lateral:after{
@@ -1005,17 +1004,18 @@ h2.subtitulo-servicios.adorno-lateral:after{
 }
 
 p.descripcion-servicio {
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'ITCAvantGardeStd-BkCn';
-    max-width: 730px;
-    margin: 0 auto 80px;
+    max-width: 720px;
+    margin: 0 auto 60px;
+    min-height: 145px;
 }
 
 p.minidisclaimer {
     font-size: 14px;
     font-family: 'ITCAvantGardeStd-BkCn';
     color: #555656;
-    padding: 50px 20px;
+    padding: 20px 20px 50px;
 }
 
 
@@ -1024,9 +1024,10 @@ p.minidisclaimer {
 }
 
 img.logo-contacto {
-    max-width: 660px;
+    max-width: 610px;
     width: 90%;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    margin-top: -60px;
 }
 
 form.contacto-style {
@@ -1038,7 +1039,7 @@ form.contacto-style {
     font-family: 'steelfish_rgregular';
     font-size: 25px;
     text-transform: uppercase;
-    padding: 30px;
+    padding: 15px;
     position: relative;
     z-index: 2;
 }
@@ -1067,7 +1068,7 @@ label.lbl-form {
     border-radius: 0;
     color: #fff;
     font-family: 'steelfish_rgregular';
-    font-size: 25px;
+    font-size: 20px;
     background: #000;
     border: none;
     width: calc(100% - 130px);
@@ -1076,8 +1077,8 @@ label.lbl-form {
 }
 
 .text-area {
-    height: 149px;
-    max-height: 149px;
+    height: 129px;
+    max-height: 129px;
 }
 
 p.contacto-datos {
@@ -1116,7 +1117,7 @@ div#servicio-creatividad:before {
     position: relative;
     display: block;
     background: url(../img/divisor_creatividad_1.png) no-repeat top center;
-    height: 468px;
+    height: 471px;
     top: -370px;
     margin-bottom: -450px;
     /* margin-bottom: 0; */
@@ -1150,7 +1151,7 @@ div#servicio-shopper:before{
     position: relative;
     display: block;
     background: url(../img/divisor_creatividad_2.png) no-repeat top center;
-    height: 468px;
+    height: 480px;
     top: -370px;
     margin-bottom: -450px;
 }
@@ -1160,7 +1161,7 @@ div#servicio-promociones:before{
     position: relative;
     display: block;
     background: url(../img/divisor_creatividad_3.png) no-repeat top center;
-    height: 468px;
+    height: 471px;
     top: -370px;
     margin-bottom: -450px;
 }
@@ -1170,7 +1171,7 @@ div#servicio-digital:before{
     position: relative;
     display: block;
     background: url(../img/divisor_creatividad_4.png) no-repeat top center;
-    height: 468px;
+    height: 499px;
     top: -370px;
     margin-bottom: -450px;
 }
@@ -1180,7 +1181,7 @@ div#servicio-packaging:before{
     position: relative;
     display: block;
     background: url(../img/divisor_creatividad_5.png) no-repeat top center;
-    height: 468px;
+    height: 472px;
     top: -370px;
     margin-bottom: -450px;
 }
@@ -1190,11 +1191,11 @@ div#servicio-packaging:before{
 }
 
 .fondo-servicio-shopper {
-    background: url(../img/fondo_shoppermkt.png) no-repeat 0% 50%;
+    background: url(../img/fondo_shoppermkt.png) no-repeat 0% 80%;
 }
 
 .fondo-servicio-promociones {
-    background: url(../img/fondo_promociones.png) no-repeat 100% 50%;
+    background: url(../img/fondo_promociones.png) no-repeat 100% 10%;
 }
 
 .fondo-servicio-digital {
@@ -1213,9 +1214,6 @@ header.header.headerFixed {
     width: 100%;
 }
 
-header.header.headerFixed a.logo {
-    width: 50px;
-}
 
 button.submit {
     border: none;

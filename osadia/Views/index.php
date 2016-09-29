@@ -303,8 +303,9 @@
 			if($(this).attr('href').indexOf('#') > -1 && $(this).attr('href').length > 1)
 			{
 				el = $(this).attr('href');
+				desplazamiento = ($('header').hasClass('headerFixed')) ? 88: 160;
 				$('html, body').animate({
-                    scrollTop: $(el).offset().top-160
+                    scrollTop: $(el).offset().top-desplazamiento
                 }, 200);
 			}
 
@@ -317,7 +318,7 @@
 			{
 				el = $(this).attr('href');
 				$('html, body').animate({
-                    scrollTop: $(el).offset().top-580
+                    scrollTop: $(el).offset().top-450
                 }, 200);
 			}
 
