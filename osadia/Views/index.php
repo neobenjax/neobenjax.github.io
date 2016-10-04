@@ -146,15 +146,12 @@
 
 			<p class="descripcion-servicio txt-center">
 				Creamos estrategias diferenciadas por canal, por retail y tipo de shopper, que nos ayuden a:
-				<br>
-				A) Entender las necesidades y motivaciones del shopper al momento de comprar.
-				<br>
-				B) Atraer al shopper al PDV	<br>
-				Social Media / Experiencias de Marca / ATL
-				<br>
-				C) Conectar con el shopper a lo largo de su ruta de compra.
-				<br>
-				Material POP / Mobiliario
+				<span class="br"></span>
+				Entender las necesidades y motivaciones del shopper al momento de comprar.
+				<span class="br"></span>
+				Atraer al shopper al PDV. Social Media / Experiencias de Marca / ATL.
+				<span class="br"></span>
+				Conectar con el shopper a lo largo de su ruta de compra. Material POP / Mobiliario.
 			</p>
 
 			<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
@@ -196,11 +193,15 @@
 			</h2>
 
 			<p class="descripcion-servicio txt-center">
-				Buscamos que la comunicación en medios digitales conecten con la gente. 
-				<br>
-				Implementamos estrategias en redes sociales para comunicar, entretener y fidelizar las relaciones con los usuarios.
-				<br>
-				Diseñamos campañas de publicidad efectiva para conseguir notoriedad en los medios y atraer tráfico a tu web.
+				Buscamos que la comunicación en medios digitales conecte con la gente.
+				<span class="br"></span>
+				Implementamos estrategias en redes sociales para comunicar,
+				<span class="br"></span>
+				entender y delizar las relaciones con los usuarios.
+				<span class="br"></span>
+				Diseñamos campañas de publicidad efectivas para conseguir
+				<span class="br"></span>
+				notoriedad en los medios y atraer tráco a tu web.
 			</p>
 
 			<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
@@ -220,9 +221,11 @@
 			</h2>
 
 			<p class="descripcion-servicio txt-center">
-				En un mercado tan competitivo como en el que nos encontramos, un buen diseño de packaging y de marca
+				En un mercado tan competitivo como en el que nos encontramos,
 				<span class="br"></span>
-				puede ser el elemento diferenciador que influya en la decisión de compra de un consumidor. 
+				un buen diseño de packaging y de marca puede ser el elemento diferenciador
+				<span class="br"></span>
+				que inuya en la decisión de compra de un consumidor.
 			</p>
 
 			<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
