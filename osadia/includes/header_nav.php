@@ -1,6 +1,10 @@
 <header class="header bg-negro">
 
-	<div class="contenido-centrado">
+	<a href="#" class="show-menu verde main">
+		<i></i><i></i><i></i>
+	</a>
+
+	<div class="contenido-centrado" id="menu">
 		
 		<a href="<?php echo $baseURL; ?>" class="logo">
 			<img src="<?php echo $baseURL; ?>assets/img/logo_osadia.png" alt="" class="Home Osadia">
@@ -13,5 +17,8 @@
 		</ul>
 
 	</div>
+
+	<img src="<?php echo $baseURL; ?>assets/img/logo_osadia_movil.png" alt="" class="logoMovil">
+
 
 </header>
