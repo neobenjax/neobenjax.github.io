@@ -1,7 +1,7 @@
 <div class="contenido-full" id="somos">
 	<div class="contenido-centrado">
 		
-		<img src="<?php echo $baseURL; ?>assets/img/logo_quienes.png" alt="Somos Osadia" class="logo-quienes">
+		<img src="assets/img/logo_quienes.png" alt="Somos Osadia" class="logo-quienes">
 		<div class="contenido-somos">
 			
 			<p>
@@ -33,7 +33,7 @@
 
 	<div class="contenido-centrado fondo-experiencia">
 
-		<img src="<?php echo $baseURL; ?>assets/img/logo_experiencia.png" alt="Experiencia" class="logo-experiencia">
+		<img src="assets/img/logo_experiencia.png" alt="Experiencia" class="logo-experiencia">
 
 		<p class="texto-experiencia">
 			Entiendemos las necesidades del mercado local y aportamos nuestra experiencia de más de 15 años creando estrategias regionales y globales para diferentes marcas.
@@ -52,7 +52,7 @@
 			<li><span class="marca delvalle"></span></li>
 		</ul>
 
-		<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno">
+		<img src="assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno">
 
 	</div>
 </div>
@@ -74,7 +74,7 @@
 		</p>
 
 		<div class="adorno-rodea">
-			<img src="<?php echo $baseURL; ?>assets/img/logo_osadia.png" alt="Logo Osadia II" class="logo-adorno">
+			<img src="assets/img/logo_osadia.png" alt="Logo Osadia II" class="logo-adorno">
 		</div>
 
 	</div>
@@ -91,7 +91,7 @@
 
 		<div class="contenido-centrado">
 
-			<img src="<?php echo $baseURL; ?>assets/img/logo_servicios.png" alt="" class="logo-servicios">
+			<img src="assets/img/logo_servicios.png" alt="" class="logo-servicios">
 
 			<p class="intro-servicios">
 				El panorama mundial está en constante evolución al igual que la forma en que nos comunicamos; por eso nuestras marcas 
@@ -126,7 +126,7 @@
 				</li>
 			</ul>
 
-			<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno">
+			<img src="assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno">
 
 		</div>
 	</div>
@@ -137,7 +137,7 @@
 			<i></i><i></i><i></i>
 		</a>
 
-		<img src="<?php echo $baseURL; ?>assets/img/divisor_creatividad_1.png" alt="Creatividad - Reel" class="reel">
+		<img src="assets/img/divisor_creatividad_1.png" alt="Creatividad - Reel" class="reel">
 
 
 		<div class="capa-fondo">
@@ -154,7 +154,7 @@
 					Creemos en el valor de las ideas y en la búsqueda de los mejores conceptos creativos, ambos son parte fundamental de nuestras propuestas.
 				</p>
 
-				<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
+				<img src="assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
 
 				<p class="minidisclaimer">
 					Todos los derechos reservados de los proyectos, logos, empaques y campañas pertenecen a las marcas correspondientes.
@@ -171,7 +171,7 @@
 			<i></i><i></i><i></i>
 		</a>
 
-		<img src="<?php echo $baseURL; ?>assets/img/divisor_creatividad_2.png" alt="Shopper - Reel" class="reel">
+		<img src="assets/img/divisor_creatividad_2.png" alt="Shopper - Reel" class="reel">
 
 		<div class="capa-fondo">
 
@@ -191,7 +191,7 @@
 					Conectar con el shopper a lo largo de su ruta de compra. Material POP / Mobiliario.
 				</p>
 
-				<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
+				<img src="assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
 
 				<p class="minidisclaimer">
 					Todos los derechos reservados de los proyectos, logos, empaques y campañas pertenecen a las marcas correspondientes.
@@ -209,7 +209,7 @@
 			<i></i><i></i><i></i>
 		</a>
 		
-		<img src="<?php echo $baseURL; ?>assets/img/divisor_creatividad_3.png" alt="Promociones - Reel" class="reel">
+		<img src="assets/img/divisor_creatividad_3.png" alt="Promociones - Reel" class="reel">
 
 		<div class="capa-fondo">
 			<div class="contenido-centrado fondo-servicio-promociones">
@@ -221,10 +221,10 @@
 				<p class="descripcion-servicio txt-center">
 					Las promociones son ideales para lograr un incremento en las ventas en un corto plazo. 
 					<br>
-					Cuanto más memorables y originales sean, <strong>más nos ayudarán</strong> a la construcción de una marca sólida.
+					Cuanto más memorables y originales sean, más nos ayudarán a la construcción de una marca sólida.
 				</p>
 
-				<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
+				<img src="assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
 
 				<p class="minidisclaimer">
 					Todos los derechos reservados de los proyectos, logos, empaques y campañas pertenecen a las marcas correspondientes.
@@ -240,7 +240,7 @@
 			<i></i><i></i><i></i>
 		</a>
 
-		<img src="<?php echo $baseURL; ?>assets/img/divisor_creatividad_4.png" alt="Digital - Reel" class="reel">
+		<img src="assets/img/divisor_creatividad_4.png" alt="Digital - Reel" class="reel">
 
 		<div class="capa-fondo">
 			<div class="contenido-centrado fondo-servicio-digital">
@@ -261,7 +261,7 @@
 					notoriedad en los medios y atraer tráco a tu web.
 				</p>
 
-				<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
+				<img src="assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
 
 				<p class="minidisclaimer">
 					Todos los derechos reservados de los proyectos, logos, empaques y campañas pertenecen a las marcas correspondientes.
@@ -278,7 +278,7 @@
 			<i></i><i></i><i></i>
 		</a>
 
-		<img src="<?php echo $baseURL; ?>assets/img/divisor_creatividad_5.png" alt="Packaging - Reel" class="reel">
+		<img src="assets/img/divisor_creatividad_5.png" alt="Packaging - Reel" class="reel">
 
 		<div class="capa-fondo">
 			<div class="contenido-centrado fondo-servicio-packaging">
@@ -295,7 +295,7 @@
 					que inuya en la decisión de compra de un consumidor.
 				</p>
 
-				<img src="<?php echo $baseURL; ?>assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
+				<img src="assets/img/linea_bot_experiencia.png" alt="Divisor 1" class="divisor-adorno servicio-separador">
 
 				<p class="minidisclaimer">
 					Todos los derechos reservados de los proyectos, logos, empaques y campañas pertenecen a las marcas correspondientes.
@@ -317,7 +317,7 @@
 
 	<div class="contenido-centrado fondo-contacto">
 
-		<img src="<?php echo $baseURL; ?>assets/img/logo-contacto.png" alt="Contacto" class="logo-contacto">
+		<img src="assets/img/logo-contacto.png" alt="Contacto" class="logo-contacto">
 
 		<form action="" id="formContacto" class="contacto-style" method="post">
 			
