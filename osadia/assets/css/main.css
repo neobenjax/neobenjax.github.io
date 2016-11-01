@@ -792,7 +792,8 @@ ul.marcas-experiencia > li > span.marca.powerade {
 }
 
 ul.marcas-experiencia > li > span.marca.delvalle {
-    background-position:0px -104px;
+    background-position: -838px -104px;
+    width: 108px;
 }
 
 p.frase-idea {
