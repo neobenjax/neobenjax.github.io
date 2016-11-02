@@ -1150,6 +1150,7 @@ img.reel {
     z-index: 2;
 }
 .logoMovil{display: none;}
+
 @media only screen and (max-width: 1200px) {
     ul.menu-principal > li{width:calc(25% - 10px);margin:0;}
     ul.menu-principal > li > a{width: 100%;}
@@ -1170,13 +1171,31 @@ img.reel {
 }
 
 @media only screen and (max-width : 1024px) {
-    img.logo-quienes{max-width: 400px;}
-    img.logo-servicios{max-width: 510px;}
+    img.logo-quienes{max-width: 400px;margin-top: 0;}
+    img.logo-servicios{max-width: 510px;margin-bottom: 40px;}
     h2.subtitulo-servicios.adorno-lateral{
         font-size: 50px;
         line-height: 60px;
         margin: 35px 0 25px;
     }
+    ul.menu-principal{width: 850px;}
+    ul.menu-principal > li{width: 24%;margin:0;}
+    .contenido-somos{
+        padding: 40px 40px 0px;
+        height: 240px;
+        background-size: 100% 240px;
+    }
+    div#somos{margin-bottom: 90px;}
+    div#experiencia{padding-top: 0;}
+    p.texto-experiencia{margin: 20px auto;}
+    ul.links-servicios > li{width: 20%;}
+    p.descripcion-servicio{margin-bottom: 35px;}
+    ul.marcas-experiencia > li{width: 20%;}
+    .input-dark{width: 550px;}
+    img.logo-contacto{max-width: 350px;}
+    .text-area{
+    max-height: 75px;
+}
 
 }
 
