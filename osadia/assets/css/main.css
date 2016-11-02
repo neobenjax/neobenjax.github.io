@@ -1254,11 +1254,12 @@ img.reel {
     }
     ul.menu-principal > li{width: 100%;display: block;margin-bottom: 15px;}
     ul.menu-principal > li > a{font-size:20px;font-weight: normal;display: inline-block;width: auto;}
-    .contenido-somos > p{font-size:20px;}
+    .contenido-somos > p{font-size: 16px;}
     img.logo-quienes{max-width: 525px;margin-top: 70px;}
     .contenido-somos{
         background-size: 100% 390px;
         height: auto;
+        padding: 94px 40px;
     }
     .go-down-cont {
         background-size: 100%;
@@ -1266,13 +1267,13 @@ img.reel {
     img.logo-experiencia{
         margin: 20px 0;
     }
-    p.texto-experiencia {font-size: 20px;max-width: 375px;line-height: 33px;}
-    ul.marcas-experiencia > li {width: 230px;margin-bottom: 30px;}
+    p.texto-experiencia {font-size: 20px;max-width: 375px;}
+    ul.marcas-experiencia > li {width: 220px;margin-bottom: 30px;}
     ul.marcas-experiencia > li:nth-child(7),
     ul.marcas-experiencia > li:nth-child(8),
     ul.marcas-experiencia > li:nth-child(9),
     ul.marcas-experiencia > li:nth-child(10){
-        width: 174px;
+        width: 165px;
     }
     img.logo-servicios{max-width: 600px;margin: 80px 0 80px;}
     div#servicio-intro.fondo-servicios{
