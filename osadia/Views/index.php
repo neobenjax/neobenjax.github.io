@@ -394,7 +394,7 @@
                     scrollTop: $(el).offset().top-desplazamiento
                 }, 200);
                 $('header').removeClass('open');
-                $showMenu.not('.main').toggleClass('ocultar');
+                $showMenu.not('.main').removeClass('ocultar');
 			}
 
 		});

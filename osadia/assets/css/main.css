@@ -1203,16 +1203,23 @@ img.reel {
 
 }
 
-@media only screen and (max-width : 800px) {
+@media only screen and (max-width: 800px) {
     .contenido-centrado{padding:0 35px;}
     header.header.open .logoMovil{display: block;max-width: 222px;width: 90%;position: absolute;bottom: 60px;}
     a.show-menu {display: block;}
+
+    a.show-menu.main {
+        display: none;
+    }
+    header.header.headerFixed.open a.show-menu.main{display:block;}
+
     a.show-menu.ocultar{display:none;}
 
     #contacto a.show-menu {
         top: -40px;
     }
-    header.header.bg-negro {
+    
+    header.header.headerFixed.bg-negro {
         background-color: rgba(0,0,0,0)!important;
         border-bottom: 0;
         position: absolute;
@@ -1224,11 +1231,12 @@ img.reel {
         position: fixed;
         width: 100vw;
         padding: 60px 50px;
+        top: 0;
     }
-    div#menu.contenido-centrado {
+    
+    header.header.headerFixed div#menu.contenido-centrado {
         width: 100%;
         height: 100%;
-        /* display: none; */
         -webkit-transform: translateX(-100%);
         -moz-transform: translateX(-100%);
         -o-transform: translateX(-100%);
@@ -1237,23 +1245,28 @@ img.reel {
         -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
-    .header.open div#menu.contenido-centrado {
-        /* display: block; */
+    
+    header.header.headerFixed.open div#menu.contenido-centrado {
         padding: 0;
         -webkit-transform: translateX(0%);
         -moz-transform: translateX(0%);
         -o-transform: translateX(0%);
         transform: translateX(0%);
     }
-    a.logo {
+    .header.open a.logo {
         display: none;
     }
     ul.menu-principal{
+        width: 630px;
+    }
+    .header.open ul.menu-principal{
         width:100%;
         text-align: left;
     }
-    ul.menu-principal > li{width: 100%;display: block;margin-bottom: 15px;}
-    ul.menu-principal > li > a{font-size:20px;font-weight: normal;display: inline-block;width: auto;}
+    .header.open ul.menu-principal > li{width: 100%;display: block;margin-bottom: 15px;}
+    .header.open ul.menu-principal > li > a{font-size:20px;font-weight: normal;display: inline-block;width: auto;}
+
+    header.header.headerFixed + #somos{margin-top:80px;}
     .contenido-somos > p{font-size: 16px;}
     img.logo-quienes{max-width: 525px;margin-top: 70px;}
     .contenido-somos{
@@ -1265,9 +1278,9 @@ img.reel {
         background-size: 100%;
     }
     img.logo-experiencia{
-        margin: 20px 0;
+        margin: 50px 0;
     }
-    p.texto-experiencia {font-size: 20px;max-width: 375px;}
+    p.texto-experiencia {font-size: 20px;max-width: 375px;margin: 50px auto 50px;}
     ul.marcas-experiencia > li {width: 220px;margin-bottom: 30px;}
     ul.marcas-experiencia > li:nth-child(7),
     ul.marcas-experiencia > li:nth-child(8),
@@ -1294,6 +1307,15 @@ img.reel {
     div.contenido-seccion:not(#servicio-intro){
         margin-bottom:70px;
     }
+    img.reel{
+        width: 150%;
+        left:50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform:translateX(-50%);
+    }
+
     p.descripcion-servicio{
         font-size:20px;
         max-width: 425px;
@@ -1311,7 +1333,8 @@ img.reel {
     }
 
     #servicio-shopper p.descripcion-servicio {
-        max-width: 610px;
+        max-width: 700px;
+        font-size: 19.5px;
     }
     h2.subtitulo-servicios.adorno-lateral {
         font-size: 60px;
@@ -1327,8 +1350,8 @@ img.reel {
         height: 10%;
     }
     img.logo-contacto{
-        max-width: 590px;
-        margin: 20px 0 60px;
+        max-width: 560px;
+        margin: 0px 0 20px;
     }
     form.contacto-style{   
         font-size: 26px;
