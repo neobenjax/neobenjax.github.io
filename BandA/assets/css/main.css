@@ -1,4 +1,216 @@
 body.background{
-	background: url(../img/background.jpg) no-repeat top center;
-	color: #7c7c7c;
+	background: #fff url(../img/background.jpg) no-repeat top center;
+	color: #8465ae;
+	/* color: #f0edf6; */
+	font-size: 30px;
+}
+
+html {font-family: 'Rasa', serif;}
+
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;margin: 0;padding: 0;}
+h1,h2,h3,h4{
+	font-weight: normal;
+	font-style: normal;
+}
+
+.contenido {
+    max-width: 1024px;
+    margin: 0 auto;
+    width: calc(100% - 40px);
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1.main-title {
+    font-size: 80px;
+    color: #8465ae;
+    line-height: 50px;
+    /* color: #fff; */
+    margin-bottom: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.8);
+    font-family: 'Tangerine',cursive;
+}
+
+img.ramo {
+    width: 100%;
+    max-width: 290px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.br{
+	display:block;
+}
+
+span.y {
+    position: relative;
+    top: -15px;
+}
+
+p.entrada {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 35px;
+}
+
+strong.fecha {margin: 20px 0;display: inline-block;}
+
+.upper:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.upper {
+    text-align: center;
+}
+
+hr.adorno {
+	border: none;height: 10px;
+	/* background: #000; */
+	max-width: 60%;margin: 0 auto;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	border-radius: 10px;
+	background: radial-gradient(ellipse at center,  rgb(175, 155, 201) 0%,rgba(0,0,0,0) 100%);}
+
+p.padrinos {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 45px;
+}
+
+ul.padrinos {
+    text-align: center;
+    list-style: none;
+    font-family: 'Tangerine',cursive;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+ul.padrinos > li {
+    display: inline-block;
+    margin: 0 40px;
+    width: calc(50% - 100px);
+}
+
+ul.padrinos > li > strong {
+    text-shadow: 0px 1px 9px rgba(0,0,0,0.2);
+    display: block;
+}
+
+ul.padrinos > li > a {
+    display: block;
+    text-decoration: none;
+    color: #8465ae;
+    font-family: 'Rasa', serif;
+}
+
+ul.ubicaciones {
+    text-align: center;
+}
+
+ul.ubicaciones > li {
+    display: inline-block;
+    margin: 0px 40px;
+    width: calc(50% - 100px);
+    vertical-align: top;
+}
+
+ul.ubicaciones > li > img {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+ul.ubicaciones > li > strong,ul.ubicaciones > li > em,ul.ubicaciones > li > a {
+    display: block;
+}
+
+ul.ubicaciones > li > p {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+ul.ubicaciones > li > a.evento-link {
+    text-shadow: 0px 1px 9px rgba(0,0,0,0.2);
+    text-decoration: none;
+    font-family: 'Tangerine',cursive;
+    font-size: 50px;
+    display: block;
+    font-weight: bold;
+    text-align:center;
+    position:relative;
+}
+ul.ubicaciones > li > a.evento-link:before,
+ul.ubicaciones > li > a.evento-link:after{
+	display:block;
+	top:50%;
+	width:30px;
+	height:2px;
+	content:'';
+	position:absolute;
+	background:#8465ae;
+	margin-top:-1px;
+}
+ul.ubicaciones > li > a.evento-link:after{
+	right:0px;
+}
+
+p.intro-mesas {
+    margin-bottom: 30px;
+}
+
+p.texto-final {
+    font-size: 80px;
+    color: #8465ae;
+    line-height: 50px;
+    /* color: #fff; */
+    margin-bottom: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 5px 5px 10px rgba(132,101,174,0.7);
+    font-family: 'Tangerine',cursive;
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width : 1024px) {
+	ul.padrinos > li{width: calc(50% - 200px);}
+}
+
+@media only screen and (max-width : 999px) {
+	ul.padrinos > li{width: calc(50% - 60px);margin: 0 20px;}
+	ul.ubicaciones > li{margin: 0px 20px;width: calc(50% - 50px);}
+}
+
+@media only screen and (max-width : 999px) {
+	ul.padrinos > li{display:block;margin:0 auto 30px;width: 100%;}
+	ul.ubicaciones > li{display:block;margin: 0 auto 20px;width: 90%;}
+	hr.adorno{ max-width:90%;}
+}
+
+@media only screen and (max-width : 667px) {
+	body.background{
+		font-size: 22px;
+	}
+		p.entrada{
+		line-height: 25px;
+	}
+	img.ramo{max-width: 210px;}
+	h1.main-title{
+		font-size: 50px;
+		line-height: 35px;
+		margin-bottom: 20px;
+		text-shadow: 5px 5px 9px rgba(255,255,255,0.8);
+	}
+	ul.padrinos{
+		font-size: 35px;
+	}
+	p.texto-final{
+		font-size: 60px;
+	}
 }
