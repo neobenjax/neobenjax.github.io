@@ -2,7 +2,7 @@ body.background{
 	background: #fff url(../img/background.jpg) no-repeat top center;
 	color: #8465ae;
 	/* color: #f0edf6; */
-	font-size: 30px;
+	font-size: 24px;
 }
 
 html {font-family: 'Rasa', serif;}
@@ -53,7 +53,7 @@ span.y {
 p.entrada {
     max-width: 600px;
     margin: 0 auto 40px;
-    line-height: 35px;
+    line-height: 25px;
 }
 
 strong.fecha {margin: 20px 0;display: inline-block;}
@@ -144,6 +144,7 @@ ul.ubicaciones > li > a.evento-link {
     font-weight: bold;
     text-align:center;
     position:relative;
+    color: #8465ae;
 }
 ul.ubicaciones > li > a.evento-link:before,
 ul.ubicaciones > li > a.evento-link:after{
@@ -195,22 +196,29 @@ p.texto-final {
 
 @media only screen and (max-width : 667px) {
 	body.background{
-		font-size: 22px;
+		font-size: 20px;
 	}
 		p.entrada{
 		line-height: 25px;
 	}
 	img.ramo{max-width: 210px;}
 	h1.main-title{
-		font-size: 50px;
+		font-size: 53px;
 		line-height: 35px;
 		margin-bottom: 20px;
-		text-shadow: 5px 5px 9px rgba(255,255,255,0.8);
+		text-shadow: none;
+		font-weight: bold;
 	}
 	ul.padrinos{
-		font-size: 35px;
+		font-size: 45px;
 	}
 	p.texto-final{
 		font-size: 60px;
 	}
+	ul.ubicaciones > li > a.evento-link{
+		font-size: 40px;
+	}
+	ul.ubicaciones > li > a.evento-link:before, ul.ubicaciones > li > a.evento-link:after{width: 20px;}
+	ul.ubicaciones > li > a.evento-link:before{left:-20px;}
+	ul.ubicaciones > li > a.evento-link:after{right:-20px;}
 }
