@@ -91,6 +91,10 @@ ul.padrinos {
     margin-bottom: 50px;
 }
 
+.mesas-de-regalos ul.padrinos > li > a {
+    font-size: 30px;
+}
+
 ul.padrinos > li {
     display: inline-block;
     margin: 0 40px;
@@ -221,4 +225,5 @@ p.texto-final {
 	ul.ubicaciones > li > a.evento-link:before, ul.ubicaciones > li > a.evento-link:after{width: 20px;}
 	ul.ubicaciones > li > a.evento-link:before{left:-20px;}
 	ul.ubicaciones > li > a.evento-link:after{right:-20px;}
+	.mesas-de-regalos ul.padrinos > li > a {font-size: 20px;}
 }
