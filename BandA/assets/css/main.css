@@ -139,7 +139,7 @@ ul.ubicaciones > li > p {
     margin-bottom: 20px;
 }
 
-ul.ubicaciones > li > a.evento-link {
+ul.ubicaciones > li > a.evento-link,a.adorno-link {
     text-shadow: 0px 1px 9px rgba(0,0,0,0.2);
     text-decoration: none;
     font-family: 'Tangerine',cursive;
@@ -151,7 +151,9 @@ ul.ubicaciones > li > a.evento-link {
     color: #8465ae;
 }
 ul.ubicaciones > li > a.evento-link:before,
-ul.ubicaciones > li > a.evento-link:after{
+ul.ubicaciones > li > a.evento-link:after,
+a.adorno-link:before,
+a.adorno-link:after{
 	display:block;
 	top:50%;
 	width:30px;
@@ -161,7 +163,8 @@ ul.ubicaciones > li > a.evento-link:after{
 	background:#8465ae;
 	margin-top:-1px;
 }
-ul.ubicaciones > li > a.evento-link:after{
+ul.ubicaciones > li > a.evento-link:after,
+a.adorno-link:after{
 	right:0px;
 }
 
@@ -219,7 +222,7 @@ p.texto-final {
 	p.texto-final{
 		font-size: 60px;
 	}
-	ul.ubicaciones > li > a.evento-link{
+	ul.ubicaciones > li > a.evento-link,a.adorno-link{
 		font-size: 40px;
 	}
 	ul.ubicaciones > li > a.evento-link:before, ul.ubicaciones > li > a.evento-link:after{width: 20px;}
