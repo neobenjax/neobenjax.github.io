@@ -229,4 +229,8 @@ p.texto-final {
 	ul.ubicaciones > li > a.evento-link:before{left:-20px;}
 	ul.ubicaciones > li > a.evento-link:after{right:-20px;}
 	.mesas-de-regalos ul.padrinos > li > a {font-size: 25px;}
+
+.mesas-de-regalos ul.padrinos > li > a.adorno-link {
+    font-size: 20px;
+}
 }
