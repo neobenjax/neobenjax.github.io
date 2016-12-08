@@ -234,3 +234,30 @@ p.texto-final {
     font-size: 20px;
 }
 }
+
+ul.precios-habitaciones {
+    list-style: none;
+    text-align: left;
+    max-width: 480px;
+    margin: 0 auto 30px;
+}
+
+ul.precios-habitaciones > li {
+    margin-bottom: 10px;
+}
+
+ul.precios-habitaciones > li > strong {
+    display: block;
+}
+
+ul.precios-habitaciones > li > span.precio {
+    display: block;
+}
+
+ul.precios-habitaciones > li > span.incluye {
+    display: block;
+}
+
+div#digital:target {
+    display: none;
+}
